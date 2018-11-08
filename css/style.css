@@ -11,19 +11,27 @@ body a,
 body a:hover {
   color: white;
 }
-body .glitch {
+
+.navbar {
+  padding: 1rem 0rem;
+}
+.navbar .oi-menu {
+  color: #FFFFFF;
+}
+
+.logo-glitch {
   position: relative;
   background: url("/img/devfsa-logo-03.svg") no-repeat;
-  width: 31.25rem;
-  height: 5rem;
-  background-size: 31.25rem 5rem;
+  width: 6.25rem;
+  height: 1rem;
+  background-size: 6.25rem 1rem;
 }
-body .glitch:before {
+.logo-glitch:before {
   content: " ";
   background: url("/img/devfsa-logo-03.svg") no-repeat;
-  width: 31.25rem;
-  height: 5rem;
-  background-size: 31.25rem 5rem;
+  width: 6.25rem;
+  height: 1rem;
+  background-size: 6.25rem 1rem;
   position: absolute;
   left: -0.125rem;
   top: 0;
@@ -33,12 +41,12 @@ body .glitch:before {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
-body .glitch:after {
+.logo-glitch:after {
   content: " ";
   background: url("/img/devfsa-logo-03.svg") no-repeat;
-  width: 31.25rem;
-  height: 5rem;
-  background-size: 31.25rem 5rem;
+  width: 6.25rem;
+  height: 1rem;
+  background-size: 6.25rem 1rem;
   position: absolute;
   left: 0.125rem;
   top: 0;
