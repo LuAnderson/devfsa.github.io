@@ -6,6 +6,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f1567", endColorstr="#c11c7a", GradientType=1);
   color: #ffffff;
   min-height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 body a,
 body a:hover {
@@ -53,6 +54,7 @@ body a:hover {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim 2s infinite linear alternate-reverse;
 }
+
 @keyframes noise-anim {
   0% {
     clip: rect(50px, 9999px, 29px, 0);
@@ -182,4 +184,14 @@ body a:hover {
   100% {
     clip: rect(56px, 9999px, 74px, 0);
   }
+}
+
+.content {
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.content .col-md-8 {
+  border-right: 1px solid #FFFFFF;
 }
